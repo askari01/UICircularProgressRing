@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		257338BF248B387000E4F16D /* TimerRingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257338BE248B387000E4F16D /* TimerRingExample.swift */; };
 		2597CB3F2488B2090045C286 /* NetworkingProgressExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2597CB3E2488B2090045C286 /* NetworkingProgressExample.swift */; };
+		6BF96DE0289924030071423B /* UICircularProgressRing in Frameworks */ = {isa = PBXBuildFile; productRef = 6BF96DDF289924030071423B /* UICircularProgressRing */; };
 		A0D8184124831A7E00CDF5B1 /* IndeterminateExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D8184024831A7E00CDF5B1 /* IndeterminateExample.swift */; };
 		A0D8184324831F9C00CDF5B1 /* ProgressRingCustomizationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D8184224831F9C00CDF5B1 /* ProgressRingCustomizationExample.swift */; };
 		A0DD3A652481F208009B88D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DD3A642481F208009B88D2 /* AppDelegate.swift */; };
@@ -17,7 +18,6 @@
 		A0DD3A6B2481F20A009B88D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0DD3A6A2481F20A009B88D2 /* Assets.xcassets */; };
 		A0DD3A6E2481F20A009B88D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0DD3A6D2481F20A009B88D2 /* Preview Assets.xcassets */; };
 		A0DD3A712481F20A009B88D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0DD3A6F2481F20A009B88D2 /* LaunchScreen.storyboard */; };
-		A0DD3A7A2481F250009B88D2 /* UICircularProgressRing in Frameworks */ = {isa = PBXBuildFile; productRef = A0DD3A792481F250009B88D2 /* UICircularProgressRing */; };
 		A0DD3A7E2481F641009B88D2 /* DefaultExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DD3A7D2481F641009B88D2 /* DefaultExample.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,7 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0DD3A7A2481F250009B88D2 /* UICircularProgressRing in Frameworks */,
+				6BF96DE0289924030071423B /* UICircularProgressRing in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,7 +119,7 @@
 			);
 			name = UICircularProgressRingExample;
 			packageProductDependencies = (
-				A0DD3A792481F250009B88D2 /* UICircularProgressRing */,
+				6BF96DDF289924030071423B /* UICircularProgressRing */,
 			);
 			productName = UICircularProgressRingExample;
 			productReference = A0DD3A612481F208009B88D2 /* UICircularProgressRingExample.app */;
@@ -150,7 +150,7 @@
 			);
 			mainGroup = A0DD3A582481F208009B88D2;
 			packageReferences = (
-				A0DD3A782481F250009B88D2 /* XCRemoteSwiftPackageReference "UICircularProgressRing" */,
+				6BF96DDE289924030071423B /* XCRemoteSwiftPackageReference "UICircularProgressRing" */,
 			);
 			productRefGroup = A0DD3A622481F208009B88D2 /* Products */;
 			projectDirPath = "";
@@ -384,20 +384,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		A0DD3A782481F250009B88D2 /* XCRemoteSwiftPackageReference "UICircularProgressRing" */ = {
+		6BF96DDE289924030071423B /* XCRemoteSwiftPackageReference "UICircularProgressRing" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/luispadron/UICircularProgressRing";
+			repositoryURL = "https://github.com/askari01/UICircularProgressRing.git";
 			requirement = {
-				branch = v7.0;
+				branch = master;
 				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		A0DD3A792481F250009B88D2 /* UICircularProgressRing */ = {
+		6BF96DDF289924030071423B /* UICircularProgressRing */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = A0DD3A782481F250009B88D2 /* XCRemoteSwiftPackageReference "UICircularProgressRing" */;
+			package = 6BF96DDE289924030071423B /* XCRemoteSwiftPackageReference "UICircularProgressRing" */;
 			productName = UICircularProgressRing;
 		};
 /* End XCSwiftPackageProductDependency section */

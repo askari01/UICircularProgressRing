@@ -36,9 +36,9 @@ extension CGFloat {
 }
 
 /// adds simple conversion to CGFloat
-extension TimeInterval {
-    var float: CGFloat { return CGFloat(self) }
-}
+//extension TimeInterval {
+//    var float: CGFloat { return CGFloat(self) }
+//}
 
 /// adds simple conversion to TimeInterval
 extension CGFloat {

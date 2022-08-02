@@ -21,9 +21,7 @@ let package = Package(
             name: "UICircularProgressRing",
             dependencies: [],
             path: "Sources",
-            resources: [
-                .process("Legacy")
-            ]
+            resources: []
         )
     ]
 )
