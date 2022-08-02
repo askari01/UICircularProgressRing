@@ -20,7 +20,10 @@ let package = Package(
         .target(
             name: "UICircularProgressRing",
             dependencies: [],
-            path: "Sources"
+            path: "Sources",
+            resources: [
+                .process("Legacy")
+            ]
         )
     ]
 )
