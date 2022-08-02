@@ -17,7 +17,7 @@ class SnapshotTest: XCTestCase {
         #if SNAPSHOT_GENERATION
         record = true
         #else
-        record = false
+//        record = false
         #endif
         //
         //

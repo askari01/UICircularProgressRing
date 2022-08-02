@@ -87,7 +87,8 @@ struct ColorModifier: View {
                 progress: .constant(.percent(0.7)),
                 innerRingStyle: .init(color: color, strokeStyle: .init(lineWidth: 16))
             )
-            .animation(.easeInOut(duration: 1))
+            .animation(.easeInOut(duration: 1), value: isGradient)
+//            .animation(.easeInOut(duration: 1))
             .frame(width: 200, height: 200)
         }
     }
@@ -118,7 +119,8 @@ struct AxisModifier: View {
                 progress: .constant(.percent(0.7)),
                 axis: axes[selectedAxis]
             )
-            .animation(.easeInOut(duration: 1))
+            .animation(.easeInOut(duration: 1), value: selectedAxis)
+//            .animation(.easeInOut(duration: 1))
             .frame(width: 200, height: 200)
         }
     }
@@ -137,7 +139,7 @@ struct ClockwiseModifier: View {
                 progress: .constant(.percent(0.7)),
                 clockwise: clockwise
             )
-            .animation(.easeInOut(duration: 1))
+            .animation(.easeInOut(duration: 1), value: clockwise)
             .frame(width: 200, height: 200)
         }
     }

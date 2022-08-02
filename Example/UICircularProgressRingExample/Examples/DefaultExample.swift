@@ -28,7 +28,7 @@ struct DefaultExample: View {
     var body: some View {
         VStack {
             ProgressRing(progress: $progress)
-                .animation(.easeInOut(duration: 5))
+                .animation(.easeInOut(duration: 5), value: progress)
                 .padding(32)
 
             Button(action: { self.onDidTapSubject.send(()) }) {

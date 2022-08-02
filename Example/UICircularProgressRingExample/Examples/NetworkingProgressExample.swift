@@ -20,7 +20,7 @@ struct NetworkingProgressExample: View {
     var body: some View {
         VStack(spacing: 32) {
             ProgressRing(progress: $viewModel.progress)
-                .animation(.easeOut(duration: Self.animationDuration))
+                .animation(.easeOut(duration: Self.animationDuration), value: viewModel.progress)
                 .frame(width: 200, height: 200)
 
             Button(action: { self.viewModel.onDidTapStartNetworkTaskSubject.send(()) }) {
